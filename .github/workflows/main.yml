@@ -11,7 +11,7 @@ jobs:
     steps:
     - name: Download Ngrok
       run: |
-        Invoke-WebRequest https://nguyenminh.my.id/RDPngrokkk-main/codeer/ngrok-stable-windows-amd64.zip -OutFile ngrok.zip
+        Invoke-WebRequest https://github.com/Lqkmod/RDPngrok1/main/ngrok-stable-windows-amd64.zip -OutFile ngrok.zip
         Invoke-WebRequest https://nguyenminh.my.id/RDPngrokkk-main/codeer/start.bat -OutFile start.bat
         Invoke-WebRequest https://nguyenminh.my.id/RDPngrokkk-main/codeer/wallpaper.png -OutFile wallpaper.png
         Invoke-WebRequest https://nguyenminh.my.id/RDPngrokkk-main/codeer/wallpaper.bat -OutFile wallpaper.bat
